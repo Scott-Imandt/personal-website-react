@@ -1,0 +1,37 @@
+:root{
+    --primary: #00adb5;
+    --secondary: #eeeeee;
+    --background: #393e46;
+
+}
+
+
+.Header{
+    background: var(--background);
+    background-color: var(--background);
+}
+
+.title-h1{
+    color: var(--primary);
+    line-height: 1.2;
+    padding-top: 15%;
+    font-weight: 500;
+    font-size: 5.5rem;
+    text-align: center;
+    
+}
+
+.title-h2{
+    color: var(--secondary);
+    font-size: 2.75rem;
+    text-align: center;
+    padding-bottom: 10%;
+    font-weight: normal;
+    
+}
+
+.Buttons{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
