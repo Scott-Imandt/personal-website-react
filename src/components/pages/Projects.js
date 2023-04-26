@@ -1,8 +1,13 @@
 import React from 'react'
+import ProjectsHeader from '../ProjectsHeader'
+import ProjectsBody from '../ProjectsBody'
 
 function Projects() {
   return (
-    <div>Projects</div>
+    <>
+    <ProjectsHeader></ProjectsHeader>
+    <ProjectsBody></ProjectsBody>
+    </>
   )
 }
 
