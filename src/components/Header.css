@@ -2,13 +2,13 @@
     --primary: #00adb5;
     --secondary: #eeeeee;
     --background: #393e46;
-
 }
-
 
 .Header{
     background: var(--background);
     background-color: var(--background);
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
 }
 
 .title-h1{
@@ -17,8 +17,7 @@
     padding-top: 15%;
     font-weight: 500;
     font-size: 5.5rem;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 .title-h2{
@@ -26,8 +25,7 @@
     font-size: 2.75rem;
     text-align: center;
     padding-bottom: 10%;
-    font-weight: normal;
-    
+    font-weight: normal;  
 }
 
 .Buttons{

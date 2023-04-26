@@ -4,8 +4,6 @@ import './ButtonLinks.css'
 
 function ButtonLinks({ image: imagelink, title: altText, buttonLink: link }) {
 
-
-
     return (
         <>
             <Link to={link} className='buttonLink'>

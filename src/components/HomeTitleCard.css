@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+    color: #00adb5;
+    font-family: 'Lobster', 'Merriweather Sans', sans-serif;
+    font-weight: 500;
+}
+
+.cardContainer {
+    background-color: #393e46;
+    color: #eeeeee;
+    border-color: #00adb5;
+    border-width: thick;
+    border-style: solid;
+    padding: 10px;
+    margin: 20px;
+    width: 500px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 50px;
+
+}
+
+.cardContainer:hover {
+    box-shadow: 0 0px 8px 1px #00adb5, 0 6px 20px 0 rgba(0, 0, 0, 0.90);
+}
+
+.cardTitle {
+    color: #00adb5;
+    font-size: 2rem;
+}
+
+.cardBody {
+    font-size: 2rem;
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+  }

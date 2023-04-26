@@ -22,10 +22,9 @@ function Header() {
 
                     <ButtonLinks
                         image={'./images/linkedinicon.svg'}
-                        buttonLink={'/'}
+                        buttonLink={'https://www.linkedin.com/in/scott-imandt/'}
                         title= {"Linkedin Icon"}
                     />
-
                 </div>
             </div>
         </div>
