@@ -1,6 +1,6 @@
 import React from 'react'
-import ButtonLinks from './ButtonLinks'
-import './Header.css'
+import ButtonLinks from './buttonLinks/ButtonLinks'
+import './HomeHeader.css'
 
 function Header() {
     return (
