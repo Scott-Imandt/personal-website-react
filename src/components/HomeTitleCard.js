@@ -2,10 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './HomeTitleCard.css'
 
-function HomeTitleCard({ Title, body, link }) {
+function HomeTitleCard({ Title, body, link, style }) {
     return (
         <>
-            <div className='cardContainer'>
+            <div style={style} className='cardContainer'>
                 <Link to={link} >
                     <div className='cardTitle'>
                         <h1>{Title}</h1>

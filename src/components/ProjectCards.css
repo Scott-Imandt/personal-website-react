@@ -1,0 +1,62 @@
+h1 {
+    text-align: center;
+    color: #00adb5;
+    font-family: 'Lobster', 'Merriweather Sans', sans-serif;
+    font-weight: 500;
+}
+
+.projectOverviewContainer {
+    display: flex;
+    background-color: #393e46;
+    color: #eeeeee;
+    border-color: #00adb5;
+    border-width: thick;
+    border-style: solid;
+    padding: 10px;
+    margin: 40px;
+
+    width: fit-content;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 50px;
+      
+
+}
+
+.details{
+    width:670px;
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;  
+}
+
+
+.projectOverviewContainer:hover {
+    box-shadow: 0 0px 8px 1px #00adb5, 0 6px 20px 0 rgba(0, 0, 0, 0.90);
+}
+
+.projectOverviewTitle {
+    color: #00adb5;
+    font-size: 2rem;
+}
+
+.projectOverviewBody {
+    font-size: 2rem;
+    color: #eeeeee;
+    text-decoration: none;
+    margin-right:10px;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 400px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    border-radius: 50px;
+}
