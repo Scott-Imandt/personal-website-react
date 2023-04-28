@@ -28,7 +28,7 @@ function IndividualProject() {
   var data = LoadJsonData();
   console.log(data)
   
-  if(data == undefined){
+  if(data === undefined){
     return (
       <div>Error Loading page </div>
     )
