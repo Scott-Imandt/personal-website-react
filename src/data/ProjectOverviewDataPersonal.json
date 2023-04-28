@@ -3,14 +3,14 @@
         "title": "Smart Blinds",
         "details": "Smart Blinds that move on there own        Utilized: Java, Arduino, Android Studio, EasyEDA",
         "imagesrc": "./images/SmartBlinds/smart blinds main board.jpg",
-        "link": "weblink",
+        "link": "/IndividualProject",
         "id":1
     },
     {
         "title": "Fence Project",
         "details": "A radio controlled fence system to inform users if the gate is open        Utilized: HTML, CSS, Arduino, NRF Module, EasyEDA, Fusion 360",
         "imagesrc": "./images/Fence Project/Fence Overview.jpg",
-        "link": "weblink",
+        "link": "/IndividualProject",
         "id":2
     }
 

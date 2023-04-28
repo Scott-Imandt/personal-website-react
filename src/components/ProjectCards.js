@@ -9,7 +9,7 @@ function ProjectCards({ Project }) {
                 <>
                     <div className={'projectOverviewContainer'}>
                         
-                        <Link to={p.link} >
+                        <Link to={p.link} state={{data: p.title}}>
                         
                             <div className='projectOverviewTitle'>
                                 <h1>{p.title}</h1>
