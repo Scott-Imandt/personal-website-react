@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/personal-website-react/static/css/main.4a0a94b8.css",
+    "main.js": "/personal-website-react/static/js/main.b41ca251.js",
+    "index.html": "/personal-website-react/index.html",
+    "main.4a0a94b8.css.map": "/personal-website-react/static/css/main.4a0a94b8.css.map",
+    "main.b41ca251.js.map": "/personal-website-react/static/js/main.b41ca251.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a0a94b8.css",
+    "static/js/main.b41ca251.js"
+  ]
+}
