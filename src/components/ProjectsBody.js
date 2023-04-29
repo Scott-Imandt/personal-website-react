@@ -9,9 +9,9 @@ function ProjectsBody() {
 
   const mystyle = {
     display: "flex",
-    "flex-wrap": "wrap",
+    flexWrap: "wrap",
     margin: "auto",
-    "justify-content": "center",
+    justifyContent: "center",
 
   };
 
@@ -19,19 +19,19 @@ function ProjectsBody() {
   return (
     <>
       <div>
-        <HomeTitleCard Title={"--Personal Projects--"} style={{width:"100%", "padding": "0px", "margin-left":"0px", "margin-right": "0px"}}></HomeTitleCard>
+        <HomeTitleCard Title={"--Personal Projects--"} style={{width:"100%", padding: "0px", marginLeft:"0px", marginRight: "0px"}}></HomeTitleCard>
       </div>
       <div style={mystyle}>
         <ProjectCards Project={PersonalData}></ProjectCards>
       </div>
       <div>
-        <HomeTitleCard Title={"--Course Projects--"} style={{width:"100%", "padding": "0px", "margin-left":"0px", "margin-right": "0px"}}></HomeTitleCard>
+        <HomeTitleCard Title={"--Course Projects--"} style={{width:"100%", padding: "0px", marginLeft:"0px", marginRight: "0px"}}></HomeTitleCard>
       </div>
       <div style={mystyle}>
         <ProjectCards Project={CourseData}></ProjectCards>
       </div>
       <div>
-        <HomeTitleCard Title={"--Technical Projects--"} style={{width:"100%", "padding": "0px", "margin-left":"0px", "margin-right": "0px"}}></HomeTitleCard>
+        <HomeTitleCard Title={"--Technical Projects--"} style={{width:"100%", padding: "0px", marginLeft:"0px", marginRight: "0px"}}></HomeTitleCard>
       </div>
     </>
   )
