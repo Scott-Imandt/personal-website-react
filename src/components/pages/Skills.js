@@ -1,8 +1,13 @@
 import React from 'react'
+import SkillsBody from '../SkillsBody'
+import SkillsHeader from '../SkillsHeader'
 
 function Skills() {
   return (
-    <div>Skills</div>
+    <>
+      <SkillsHeader></SkillsHeader>
+      <SkillsBody></SkillsBody>
+    </>
   )
 }
 

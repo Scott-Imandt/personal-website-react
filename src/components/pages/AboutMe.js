@@ -1,8 +1,13 @@
 import React from 'react'
+import AboutMeHeader from '../AboutMeHeader'
+import AboutMeBody from '../AboutMeBody'
 
 function AboutMe() {
   return (
-    <div>AboutMe</div>
+    <>
+      <AboutMeHeader></AboutMeHeader>
+      <AboutMeBody></AboutMeBody>
+    </>
   )
 }
 
