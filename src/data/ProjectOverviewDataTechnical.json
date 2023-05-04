@@ -1,0 +1,18 @@
+[
+    {
+        "title": "User Instructions",
+        "details": "This guide is for people in need of simplified instructions on how to change a tire. ",
+        "imagesrc": "",
+        "link": "/TechnicalProjects",
+        "id":1
+    },
+
+    {
+        "title": "Collaborative Project",
+        "details": "This Presentaion is designed to realy a problem and create a inovative solution",
+        "imagesrc": "",
+        "link": "/TechnicalProjects",
+        "id":2
+    }
+
+]

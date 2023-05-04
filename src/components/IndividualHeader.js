@@ -5,7 +5,7 @@ import './IndividualHeader.css'
 function IndividualHeader({ projectName, subtitle, mainImage, githublink }) {
 
     let gihublinkcomponent = ""
-
+    let img = ""
 
     if (githublink !== "") {
 
@@ -19,6 +19,10 @@ function IndividualHeader({ projectName, subtitle, mainImage, githublink }) {
                 />
             </div>
     }
+
+    if(mainImage !== ""){
+        img = <img src={mainImage} alt="Project Imgage"></img>
+    }
  
 
     return (
@@ -31,7 +35,7 @@ function IndividualHeader({ projectName, subtitle, mainImage, githublink }) {
                 </div>
             </div>
             <div className='mainimg'>
-                <img src={mainImage} alt="Project Imgage"></img>
+                {img}
             </div>
         </div>
     )

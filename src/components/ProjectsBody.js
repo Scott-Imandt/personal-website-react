@@ -2,6 +2,7 @@ import React from 'react'
 import ProjectCards from './ProjectCards'
 import PersonalData from '../data/ProjectOverviewDataPersonal.json'
 import CourseData from '../data/ProjectOverviewDataCourse.json'
+import TechnicalData from '../data/ProjectOverviewDataTechnical.json'
 import PageCard from './PageCard'
 import "./ProjectBody.css"
 
@@ -33,6 +34,9 @@ function ProjectsBody() {
       </div>
       <div>
         <PageCard title={"--Technical Projects--"} body={''} img={""}> </PageCard>
+      </div>
+      <div style={mystyle}>
+        <ProjectCards Project={TechnicalData}></ProjectCards>
       </div>
     </>
   )
