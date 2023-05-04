@@ -34,6 +34,8 @@ h1 {
     font-size: 2rem;
     color: #eeeeee;
     text-decoration: none;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
 }
 
 a:-webkit-any-link {

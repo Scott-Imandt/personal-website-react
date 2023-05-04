@@ -28,7 +28,9 @@ h1 {
     width:670px;
     display: flex;
     justify-content: center;
-    margin-top: 13px;  
+    margin-top: 13px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
 }
 
 

@@ -2,7 +2,7 @@ import React from 'react'
 import ProjectCards from './ProjectCards'
 import PersonalData from '../data/ProjectOverviewDataPersonal.json'
 import CourseData from '../data/ProjectOverviewDataCourse.json'
-import HomeTitleCard from './HomeTitleCard'
+import PageCard from './PageCard'
 import "./ProjectBody.css"
 
 function ProjectsBody() {
@@ -19,19 +19,20 @@ function ProjectsBody() {
   return (
     <>
       <div>
-        <HomeTitleCard Title={"--Personal Projects--"} style={{width:"100%", padding: "0px", marginLeft:"0px", marginRight: "0px"}}></HomeTitleCard>
+        <PageCard title={"--Personal Projects--"} body={''} img={""}> </PageCard>
+
       </div>
       <div style={mystyle}>
         <ProjectCards Project={PersonalData}></ProjectCards>
       </div>
       <div>
-        <HomeTitleCard Title={"--Course Projects--"} style={{width:"100%", padding: "0px", marginLeft:"0px", marginRight: "0px"}}></HomeTitleCard>
+        <PageCard title={"--Course Projects--"} body={''} img={""}> </PageCard>
       </div>
       <div style={mystyle}>
         <ProjectCards Project={CourseData}></ProjectCards>
       </div>
       <div>
-        <HomeTitleCard Title={"--Technical Projects--"} style={{width:"100%", padding: "0px", marginLeft:"0px", marginRight: "0px"}}></HomeTitleCard>
+        <PageCard title={"--Technical Projects--"} body={''} img={""}> </PageCard>
       </div>
     </>
   )
