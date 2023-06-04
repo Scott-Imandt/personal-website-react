@@ -4,18 +4,16 @@
     background-color: var(--background);
     border-bottom-right-radius: 50px;
     border-bottom-left-radius: 50px;
-
     display: flex;
     background-color: #393e46;
-    color: #eeeeee;
-    
+    color: #eeeeee;   
     flex-wrap: wrap;
     margin: auto;
     justify-content: center;
 }
 .maincontent{
     max-width: 700px;
-    margin: auto;
+    
 }
 
 .mainimg img {

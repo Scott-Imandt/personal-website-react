@@ -41,6 +41,7 @@ h1 {
 .projectOverviewTitle {
     color: #00adb5;
     font-size: 2rem;
+    text-decoration: underline;
 }
 
 .projectOverviewBody {
