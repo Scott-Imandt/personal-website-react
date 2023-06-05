@@ -6,8 +6,7 @@ import PageArrayList from '../PageArrayList';
 
 function LoadJsonData() {
   const location = useLocation();
-
-  const data = location.state?.data
+  const data = location.state?.data;
 
   //Switch case is based off of Title
   switch (data) {
@@ -29,13 +28,22 @@ function LoadJsonData() {
   }
 }
 
+function LoadIndex() {
+  const location = useLocation();
+  const index = location.state?.index
+  console.log(index);
+  return index;
+}
+
 function IndividualProject() {
   const [pageArrayList, setPageArrayList] = React.useState([]);
 
-  var data = LoadJsonData();
-
+  var jsonData = LoadJsonData();
+  var index = LoadIndex();
+  let data = jsonData[index]
+  
   useEffect(() => {
-    if(data !== undefined) {
+    if (data !== undefined) {
       setPageArrayList(data.Array);
       console.log(data.Array)
     }

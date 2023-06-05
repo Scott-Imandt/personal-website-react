@@ -7,6 +7,7 @@ import AboutMe from './components/pages/AboutMe';
 import Skills from './components/pages/Skills';
 import IndividualProject from './components/pages/IndividualProject.js';
 import TechnicalProjects from './components/pages/TechnicalProjects.js';
+import ProjectFolder from './components/pages/ProjectFolder.js'
 import './App.css'
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
           <Route path='/AboutMe' excat Component={AboutMe}/>
           <Route path='/Skills' excat Component={Skills}/>
           <Route path='/IndividualProject' excat Component={IndividualProject}/>
+          <Route path='/ProjectFolder' excat Component={ProjectFolder}/>
           <Route path='/TechnicalProjects' excat Component={TechnicalProjects}/>
         </Routes>
       </Router>
