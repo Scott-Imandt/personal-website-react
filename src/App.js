@@ -15,7 +15,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/personal-website-react' exact  Component={Home}/>
+          <Route path='/Personal-Website' exact  Component={Home}/>
           <Route path='/Projects' excat Component={Projects}/>
           <Route path='/AboutMe' excat Component={AboutMe}/>
           <Route path='/Skills' excat Component={Skills}/>

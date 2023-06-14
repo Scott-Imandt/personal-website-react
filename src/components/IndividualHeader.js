@@ -12,7 +12,7 @@ function IndividualHeader({ projectName, subtitle, mainImage, githublink }) {
         gihublinkcomponent =
             <div className='Buttons'>
                 <ButtonLinks
-                    image={'./personal-website-react/images/Homepage/githubicon.svg'}
+                    image={'./personal-website/images/Homepage/githubicon.svg'}
                     onError={'./images/Homepage/githubicon.svg'}
                     buttonLink={githublink}
                     title={"Github Icon"}
