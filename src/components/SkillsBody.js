@@ -40,7 +40,7 @@ function SkillsBody() {
                 img={""}>
             </PageCard>
 
-            <object data={"./personal-website/PDF's/Scott Imandt - Resume Spring 2023.pdf "} type="application/pdf" width="100%" height="900px">
+            <object data={"./Personal-Website/PDF's/Scott Imandt - Resume Spring 2023.pdf "} type="application/pdf" width="100%" height="900px">
                 <p>Alternative text<a href="/Projects">to the PDF!</a></p>
             </object>
 

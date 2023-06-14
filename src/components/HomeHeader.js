@@ -10,20 +10,20 @@ function Header() {
             <div className="row">
                 <div className="Buttons">
                     <ButtonLinks
-                        image={'./personal-website/images/Homepage/githubicon.svg'}
+                        image={'./Personal-Website/images/Homepage/githubicon.svg'}
                         onError={'./images/Homepage/githubicon.svg'}
                         buttonLink={'https://github.com/Scott-Imandt'}
                         title={"Github Icon"}
                     />
                     <ButtonLinks
-                        image={'./personal-website/images/Homepage/mailicon.svg'}
+                        image={'./Personal-Website/images/Homepage/mailicon.svg'}
                         onError={'./images/Homepage/mailicon.svg'}
                         buttonLink={'mailto: ScottImandt@gmail.com'}
                         title={"Mail Icon"}
                     />
 
                     <ButtonLinks
-                        image={'./personal-website/images/Homepage/linkedinicon.svg'}
+                        image={'./Personal-Website/images/Homepage/linkedinicon.svg'}
                         onError={'./images/Homepage/linkedinicon.svg'}
                         buttonLink={'https://www.linkedin.com/in/scott-imandt/'}
                         title= {"Linkedin Icon"}
