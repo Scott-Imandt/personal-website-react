@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './components/navbar/Navbar.js';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Home from './components/pages/Home.js'
 import Projects from './components/pages/Projects';
 import AboutMe from './components/pages/AboutMe';
@@ -12,7 +13,7 @@ function App() {
 
   return (
     <>
-      <Router>
+      <HashRouter hashType="hashbang">
         <Navbar />
         <Routes>
           <Route path='/' exact Component={Home} />
@@ -23,7 +24,7 @@ function App() {
           <Route path='/IndividualProject' excat Component={IndividualProject} />
           <Route path='/TechnicalProjects' excat Component={TechnicalProjects} />
         </Routes>
-      </Router>
+      </HashRouter>
     </>
   );
 }
