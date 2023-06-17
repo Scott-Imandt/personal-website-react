@@ -32,7 +32,7 @@ function AboutMeHeader() {
                 </div>
             </div>
             <div className='mainimg'>
-                <img src={'./Personal-Website/images/Other/Scott Imandt.png'} alt="Project Imgage"></img>
+                <img src={'./images/Other/Scott Imandt.png'} alt="Project Imgage"></img>
             </div>
         </div>
     )

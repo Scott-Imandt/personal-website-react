@@ -7,9 +7,9 @@
         "id":1
     },
     {
-        "title": "Trail Recorder",
+        "title": "Hiking Java App",
         "details": "A Java application that allows users to record trail their history",
-        "imagesrc": "./Personal-Website/images/Trail Recorder/project-trail-preview.png",
+        "imagesrc": "./images/Trail Recorder/project-trail-preview.png",
         "link": "/IndividualProject",
         "id":2
     }

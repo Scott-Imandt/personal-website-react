@@ -15,7 +15,7 @@ function LoadJsonData() {
     case "HPS Daily":
       return require('../../data/Projectdata/HPSDailyProjectData.json')
 
-    case "Trail Recorder":
+    case "Hiking Java App":
       return require('../../data/Projectdata/TrailRecorderProject.json')
 
     case "Smart Blinds":

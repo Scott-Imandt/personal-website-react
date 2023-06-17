@@ -2,6 +2,9 @@ import React from 'react'
 import PageCard from './PageCard'
 
 function SkillsBody() {
+
+    const myStyle = { marginRight: "7.5%", marginLeft: "7.5%", marginTop: "50px" };
+
     return (
         <>
             <PageCard
@@ -40,10 +43,11 @@ function SkillsBody() {
                 img={""}>
             </PageCard>
 
-            <object data={"./PDF's/Scott Imandt - Resume Spring 2023.pdf "} type="application/pdf" width="100%" height="900px">
-                <p>Alternative text<a href="/Projects">to the PDF!</a></p>
-            </object>
-
+            <div style={myStyle}>
+                <object data={"./PDF's/Scott Imandt - Resume Spring 2023.pdf "} type="application/pdf" width="100%" height="900px">
+                    <p>Alternative text<a href="/Projects">to the PDF!</a></p>
+                </object>
+            </div>
 
 
         </>
