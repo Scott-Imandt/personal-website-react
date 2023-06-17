@@ -35,6 +35,8 @@ function TechnicalProjects() {
     }
 
     // if data exsits on the website
+    const myStyle = {marginRight: "7.5%", marginLeft: "7.5%", marginTop:"50px", borderRadius: "10px"};
+
     return (
         <>
 
@@ -51,10 +53,11 @@ function TechnicalProjects() {
                 img={""}>
             </PageCard>
 
-            <object data={data.Data} type="application/pdf" width="100%" height="900px">
-                <p>Alternative text<a href="/Projects">to the PDF!</a></p>
-            </object>
-
+            <div style={myStyle}>
+                <object data={data.Data} type="application/pdf" width="100%" height="900px">
+                    <p>Alternative text<a href="/Projects">to the PDF!</a></p>
+                </object>
+            </div>
         </>
     )
 }

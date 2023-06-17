@@ -2,6 +2,9 @@ import React from 'react'
 import PageCard from './PageCard'
 
 function AboutMeBody() {
+    const myStyle = {marginRight: "7.5%", marginLeft: "7.5%", marginTop:"50px"};
+    
+    
     return (
         <>
             <PageCard
@@ -19,24 +22,26 @@ function AboutMeBody() {
             <PageCard
                 title={'Stony Brook University - Computer Science Major'}
                 body={"Stony Brook, one of America’s most dynamic public universities, is New York’s flagship university and No. 1 public university. Stony Brook is part of the State University of New York (SUNY) system, a center of academic excellence and an internationally recognized research institution that offers all students a world-class education. Actively Attending:   August 2021 - Present"}
-                img={"./images/Other/Stony_Brook_University_seal.svg.png"}>
+                img={"./Personal-Website/images/Other/Stony_Brook_University_seal.svg.png"}>
             </PageCard>
 
             <PageCard
                 title={'Suffolk County Community College'}
                 body={'Suffolk County Community College (SCCC) is the largest community college in The State University of New York (SUNY) system. SCCC is a comprehensive publicly-supported, two-year, open enrollment institution, with campuses in Selden, Riverhead and Brentwood, and downtown centers in Sayville and Riverhead. Attended:  August 2018 - June 2021'}
-                img={"./images/Other/Suffolk logo.jpg"}>
+                img={"./Personal-Website/images/Other/Suffolk logo.jpg"}>
             </PageCard>
 
             <PageCard
                 title={'Hauppauge High School'}
                 body={'Hauppauge High School is a public high school and part of the Hauppauge Union Free School District located in Hauppauge, Suffolk County, Long Island, in the U.S. state of New York. Graduated With High School Diploma:  June 2018'}
-                img={"./images/Other/Hauppauge logo.jpg"}>
+                img={"./Personal-Website/images/Other/Hauppauge logo.jpg"}>
             </PageCard>
 
-            <object data={"./PDF's/Scott Imandt - Resume Spring 2023.pdf "} type="application/pdf" width="100%" height="900px">
-                <p>Alternative text<a href="/Projects">to the PDF!</a></p>
-            </object>
+            <div className='Resume' style={myStyle}>
+                <object data={"./Personal-Website/PDF's/Scott Imandt - Resume Spring 2023.pdf "} type="application/pdf" width="100%" height="900px">
+                    <p>Alternative text<a href="/Projects">to the PDF!</a></p>
+                </object>
+            </div>
         </>
     )
 }

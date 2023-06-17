@@ -10,20 +10,20 @@ function AboutMeHeader() {
                 <div className="row">
                     <div className="Buttons">
                         <ButtonLinks
-                            image={'./images/Homepage/githubicon.svg'}
+                            image={'./Personal-Website/images/Homepage/githubicon.svg'}
                             onError={'./images/Homepage/githubicon.svg'}
                             buttonLink={'https://github.com/Scott-Imandt'}
                             title={"Github Icon"}
                         />
                         <ButtonLinks
-                            image={'./images/Homepage/mailicon.svg'}
+                            image={'./Personal-Website/images/Homepage/mailicon.svg'}
                             onError={'./images/Homepage/mailicon.svg'}
                             buttonLink={'mailto: ScottImandt@gmail.com'}
                             title={"Mail Icon"}
                         />
 
                         <ButtonLinks
-                            image={'./images/Homepage/linkedinicon.svg'}
+                            image={'./Personal-Website/images/Homepage/linkedinicon.svg'}
                             onError={'./images/Homepage/linkedinicon.svg'}
                             buttonLink={'https://www.linkedin.com/in/scott-imandt/'}
                             title={"Linkedin Icon"}
@@ -32,7 +32,7 @@ function AboutMeHeader() {
                 </div>
             </div>
             <div className='mainimg'>
-                <img src={'./images/Other/Scott Imandt.png'} alt="Project Imgage"></img>
+                <img src={'./Personal-Website/images/Other/Scott Imandt.png'} alt="Project Imgage"></img>
             </div>
         </div>
     )

@@ -25,13 +25,20 @@
 }
 
 .pageimage img {
-    display: inline-block;
+    display: inline;
     vertical-align: middle;
-    max-width: 600px;
-    max-height: 600px;
+    max-width: 500px;
+    max-height: 500px;
     width: auto;
-    height: 400px;
+    
     border-radius: 50px;
-    margin: 15px 0px auto 50px;
-    height: 100%;
+      
+}
+
+.pageimage{
+    display: flex;
+    vertical-align: middle;
+    max-width: 500px;
+    max-height: 500px;
+    margin-left: 20px;  
 }
