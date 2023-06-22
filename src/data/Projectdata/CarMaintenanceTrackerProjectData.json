@@ -10,7 +10,7 @@
         },
         {
             "Completed Jobs": "Completed jobs can be created based on pre-existing jobs or can be created individually for unique jobs. The completed jobs object implements Comparable in order to print jobs in order from most recent to least recent date completed. Completed jobs are also linked to an individual car as a unique list.",
-            "img": "./images/Car Maintenance Tracker/Completed Job.png"
+            "img": "./images/Car Maintenance Tracker/Complete Job.png"
         },
         {
             "Printing to PDF": "Using the iTextPDF library, PDFs can be created using both the recurring jobs list as well as the completed jobs list in an Excel-style format. If a recurring job requires maintenance when printed to PDF, this job will be highlighted in red. The PDF prints Job Name, Mileage Interval, Month Interval, Last Date Performed, Expected Date to Perform, Last Performed Miles, Job Type, Reason for Repair, and Maintenance Needed.",
