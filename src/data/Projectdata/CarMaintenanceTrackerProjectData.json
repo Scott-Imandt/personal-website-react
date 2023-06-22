@@ -1,0 +1,24 @@
+{
+    "title": "Car Maintenance Tracker",
+    "subtitle": "Java FX application to track car maintenance and maintain a repair history",
+    "Overview": "Deciding when to change your oil or air filter can be tricky. Mileage is not always the best indicator of when to change them. Depending on how often you use your car, time expiration may happen before you reach the mileage limit. Car Maintenance Tracker is a proof-of-concept/prototype application that tracks car maintenance using both mileage and time. The application can inform the user when it\u2019s time to inspect, replace, lubricate, or tighten parts based on what jobs they are tracking.\n",
+    "Objective": "The objective of this project is to create a rapid prototype application that can track multiple vehicles, specific jobs for each vehicle, and notify the user when maintenance is required. Additionally, the application should track custom completed jobs with additional fields to track the parts used. All this information should be printable into a PDF form for personal filing and as proof of maintenance when selling the car.\n",
+    "Array": [
+        {
+            "Job Tracking": "Cars have job objects that contain multiple attributes, including Name, Mileage Interval, Month Interval, Last Performed Date, Last Performed Miles, Expected Date to Repair, and a job Enum. Every time the car object is updated with new mileage and date-time information, the function calcMaintenance is called. This function handles the logic calculation of updating each job with new state information. Jobs can be created using preset defaults as well as user-specified jobs.",
+            "img": "./images/Car Maintenance Tracker/Add Job.png"
+        },
+        {
+            "Completed Jobs": "Completed jobs can be created based on pre-existing jobs or can be created individually for unique jobs. The completed jobs object implements Comparable in order to print jobs in order from most recent to least recent date completed. Completed jobs are also linked to an individual car as a unique list.",
+            "img": "./images/Car Maintenance Tracker/Completed Job.png"
+        },
+        {
+            "Printing to PDF": "Using the iTextPDF library, PDFs can be created using both the recurring jobs list as well as the completed jobs list in an Excel-style format. If a recurring job requires maintenance when printed to PDF, this job will be highlighted in red. The PDF prints Job Name, Mileage Interval, Month Interval, Last Date Performed, Expected Date to Perform, Last Performed Miles, Job Type, Reason for Repair, and Maintenance Needed.",
+            "img": "./images/Car Maintenance Tracker/Car Log pdf.png"
+        }
+    ],
+    "Conclusion": "After completing the prototype, I have determined that there is a use case for a real-world application for this software. I have concluded that the best course of action would be to recreate this application in a web environment. This is because the end user should not have to overcome the hurdle of running this application without the proper Java version and JavaFX version. Additionally, I have found that this application should become more generic and track any \u2018job\u2019 a DIYer can think of, as well as maintain the car tracking functionality.",
+    "mainimgsrc": "./images/Car Maintenance Tracker/Main Screen.png",
+    "githublink": "https://github.com/Scott-Imandt/Car-Project",
+    "id": 1
+}
