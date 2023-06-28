@@ -17,6 +17,8 @@ function LoadJsonData() {
         case "Collaborative Project":
             return require('../../data/Projectdata/CollaborativeProjectData.json')
 
+        case "CICaidA SBDC Presentaion":
+            return require('../../data/Projectdata/CICaidAPresentation.json')
 
         default:
             return undefined
